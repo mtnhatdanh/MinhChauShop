@@ -1,0 +1,1 @@
+Xin chào <?php echo $_SESSION['name'] ?>, Hãy chọn các mục trên menu để quản trị.

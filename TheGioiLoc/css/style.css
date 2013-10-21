@@ -1,0 +1,168 @@
+/* CSS Document */
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+	color: #666666;
+}
+
+b {
+	font-weight: bold;
+}
+
+a:hover {
+	color:#085ded;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #666666;
+    margin:1em 0 0 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* style */
+
+/* General style */
+
+body {
+	color:#666666;
+	background: #f4f5f9;
+	margin: 0;
+}
+
+.container {
+	background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#085ded;
+}
+
+p {
+	color:#666666;
+}
+
+/* Component style */
+
+.leftNav {
+	font-weight: bold;
+	color: #666666;
+}
+
+.leftNav a:hover {
+	color:#085ded;
+}
+
+.leftNav tr {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.leftSubNav {
+	display: none;
+	font-weight: normal;
+}
+
+.leftSubNav li {
+	border-top: 1px dotted #cccccc;
+	margin-top: 0.5em;
+	padding: 0.2em 0 0 2em;
+}
+
+div#topDiv table {
+	display: block;
+	float: left;
+	width: 40%;
+}
+
+div#topDiv table td {
+	padding: 0.2em 0.8em 0.2em 0.2em;
+	text-align: center; 
+}
+
+#hotline {
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#flag {
+	float: right;
+}
+
+#mainNavMb {
+	display: none;
+}
+
+#tiudesp {
+	padding: 1em 0 1em 0;
+	border-top: 1px solid #52beed;
+	border-bottom: 3px solid #52beed;
+}
+
+#tiudesp span {
+	font-weight: bold;
+}
+
+.sanpham {
+	overflow: hidden;
+	border-bottom: 1px dotted #cccccc;
+}
+
+.chitietsanpham {
+	float: left;
+	text-align: center;
+}
+
+div.pop-up {
+	text-align: left;
+	display: none;
+	position: absolute;
+	width: 280px;
+	padding: 10px;
+	background: white;
+	color: #000000;
+	border: 1px solid #1a1a1a;
+	font-size: 90%;
+}
+
+div#numpage {
+	padding: 0.3em 0 0.3em 1em;
+	color: black;
+	margin-bottom: 1em;
+	
+}
+
+#footer {
+	overflow: hidden;
+	border-top: 1px solid #52beed;
+	border-bottom: 3px solid #52beed;
+}
+
+#leftfooter {
+	float: left;
+	width: 30%;
+}
+
+#rightfooter {
+	text-align: center;
+}
+
+.BlueColor {
+	color: #085ded;
+}

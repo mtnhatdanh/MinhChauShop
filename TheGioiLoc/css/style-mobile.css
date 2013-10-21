@@ -1,0 +1,150 @@
+/* style */
+
+/* General style */
+
+body {
+	font: 0.75em Arial, Helvetica, Geneva, sans-rerif;
+	background-position: 50% 0;
+	background-repeat: no-repeat no-repeat;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom:0.5em;
+	line-height:1.3em;
+}
+
+h3 {
+	font-size:1.3em;
+}
+
+p {
+	margin-bottom:1.3em;
+}
+
+/* Component style */
+
+#leftDiv {
+	padding: 0.2em 0.5em 0em 0.5em;
+}
+
+.leftNav {
+	display: none;
+}
+
+#content {
+	padding: 0em 0.5em 1em 0.5em;
+}
+
+#topDiv {
+	display: none;
+}
+
+.mainNav {
+	display: none;
+}
+
+#mainNavMb {
+	display: block;
+	text-align: center;
+}
+
+/* main menu styles */
+#navMb {
+    display:inline-block;
+    width:100%;
+    margin:0px auto;
+    padding:0;
+    background:#335599 url(../img/bg.png) repeat-x 0 -110px;
+
+    border-radius:6px; /*some css3*/
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0, .5);
+}
+#navMb li {
+	width: 30%;
+	height: 1.8em;
+    float:left;
+    position:relative;
+    list-style:none;
+}
+#navMb a {
+    font-weight:bold;
+    color:#e7e5e5;
+    text-decoration:none;
+    display:block;
+
+    border-radius:10px; /*some css3*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    text-shadow:0 2px 2px rgba(0,0,0, .7);
+}
+
+/* selected menu element */
+#navMb .currentMb a {
+    background:#7788aa url(../img/bg.png) repeat-x 0 -20px;
+    color:#000;
+    border-top:1px solid #f8f8f8;
+
+    box-shadow:0 2px 2px rgba(0,0,0, .7); /*some css3*/
+    -moz-box-shadow:0 2px 2px rgba(0,0,0, .7);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0, .7);
+    text-shadow:0 2px 2px rgba(255,255,255, 0.7);
+}
+
+/* Main Nav style */
+
+#navMb li {
+    margin:3px;
+}
+
+#navMb a {
+    padding:3px 3px;
+}
+
+/* End MainNAV style */
+
+
+#banner {
+	display: none;
+}
+
+div#tiudesp span#sp1 {
+	font-size: 1.5em;
+}
+
+div#tiudesp span#sp2 {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+.sanpham {
+	margin-top: 0.5em;
+}
+
+.chitietsanpham {
+	width: 33%;
+	height: 12em;
+	padding: 2%;
+}
+
+.chitietsanpham img {
+	width: 90%;
+	margin: auto;
+}
+
+div#numpage {
+	margin-top: 2em;
+}
+
+#footer {
+	margin: 0.5em 0 0.5em 0;
+	padding: 1em 0 1em 0;
+}
+
+#leftfooter {
+	display: none;
+}

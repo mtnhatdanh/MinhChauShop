@@ -1,0 +1,119 @@
+/* style */
+
+/* General style */
+
+body {
+	font: 0.8em Arial, Helvetica, Geneva, sans-rerif;
+	background-image: url(../img/body_bg.png);
+	background-position: 50% 0;
+	background-repeat: no-repeat no-repeat;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom:0.6em;
+	line-height:1.4em;
+}
+
+h3 {
+	font-size:1.4em;
+}
+
+p {
+	margin-bottom:1.5em;
+}
+
+/* Component style */
+
+#leftDiv {
+	padding: 1.3em 0 1.3em 1.3em;
+}
+
+#logo {
+	margin-bottom: 2em;
+}
+
+.leftNav {
+	margin-bottom: 2em;
+}
+
+.leftNav td {
+	padding: 0.4em 0.2em 0.4em 0.2em;
+}
+
+td.iconNav {
+	padding-left: 0.5em!important;
+}
+
+#content {
+	padding: 1.3em 1.3em 1.3em 0;
+}
+
+#topDiv {
+	display: block;
+	overflow: hidden;
+}
+
+#hotline {
+	font-size: 1em;
+}
+
+.mainNav {
+	margin-top: 1em;
+}
+
+/* Main Nav style */
+
+#nav li {
+    margin:10px;
+}
+
+#nav a {
+    padding:8px 20px;
+}
+
+/* End MainNAV style */
+
+#banner {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#banner embed {
+	width: 100%;
+	height: 316px;
+}
+
+
+div#tiudesp span#sp1 {
+	font-size: 1.5em;
+}
+
+div#tiudesp span#sp2 {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+.sanpham {
+	margin-top: 0.5em;
+}
+
+.chitietsanpham {
+	width: 20%;
+	height: 15em;
+	padding: 2%;
+}
+
+.chitietsanpham img {
+	width: 90%;
+	margin: auto;
+}
+
+#footer {
+	margin: 1em 0 1em 0;
+	padding: 2em 0 2em 0;
+}
+
+#leftfooter {
+	padding: 1em 2em 1em 2em;
+}
